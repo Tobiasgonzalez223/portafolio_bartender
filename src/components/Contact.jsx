@@ -1,18 +1,18 @@
 const contactLinks = [
   {
     label: 'WhatsApp',
-    value: '+54 9 351 000-0000',
-    href: 'https://wa.me/5493510000000',
+    value: '+54 9 3543 512100',
+    href: 'https://wa.me/5493543512100',
   },
   {
     label: 'Instagram',
-    value: '@tu_usuario',
-    href: 'https://instagram.com/tu_usuario',
+    value: '@_tobias_gonzalez_',
+    href: 'https://instagram.com/_tobias_gonzalez_',
   },
   {
     label: 'Email',
-    value: 'tuemail@gmail.com',
-    href: 'mailto:tuemail@gmail.com',
+    value: 'tobiasgonzalez223@gmail.com',
+    href: 'mailto:tobiasgonzalez223@gmail.com',
   },
 ]
 

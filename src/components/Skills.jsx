@@ -1,11 +1,9 @@
 const skillsList = [
-  { name: 'DECIRLE A FIORE QUE SE BUSQUE UN LABURO', level: 90 },
-  { name: 'Robarle chicles a Meli', level: 80 },
-  { name: 'Sacarle el cuero a MACARENA VALDEZ ALIAS LA NUEVA JEFA', level: 60 },
-  { name: 'DECIRLE A FIORE QUE SE BUSQUE UN LABURO', level: 95 },
-  { name: 'Decirle a IGNACIO AVILA que no sea TAN PUTO', level: 85 },
-  { name: 'Recordarle a MARINA NIEVAS CAJERA DEL TORI CERRO que ingrese a horario ', level: 99 },
-  { name: 'Recordarle a MARINA NIEVAS CAJERA DEL TORI CERRO que ingrese a horario ', level: 99 },
+  { name: 'Gestión eficiente en servicios de alta demanda', level: 90 },
+  { name: 'Perfil resolutivo', level: 80 },
+  { name: 'Coctelería clásica y de autor', level: 60 },
+  { name: 'Trato cordial y profesional', level: 95 },
+  { name: 'Trabajo en equipo', level: 85 },
 ]
 
 function Skills() {

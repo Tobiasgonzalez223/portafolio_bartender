@@ -2,7 +2,6 @@ import img1 from '../assets/images/1.jpg';
 import img2 from '../assets/images/2.jpg';
 import img3 from '../assets/images/3.jpg';
 import img4 from '../assets/images/4.jpg';
-import img5 from '../assets/images/5.jpg';
 import vid1 from '../assets/videos/1.mp4';
 import vid2 from '../assets/videos/2.mp4';1
 
@@ -11,7 +10,6 @@ const galleryItems = [
     { type: 'image', src: img2, alt: 'Image 2' },
     { type: 'image', src: img3, alt: 'Image 3' },
     { type: 'image', src: img4, alt: 'Image 4' },
-    { type: 'image', src: img5, alt: 'Image 5' },
     { type: 'video', src: vid1, alt: 'Video 1' },
     { type: 'video', src: vid2, alt: 'Video 2' }
 ]
