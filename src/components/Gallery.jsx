@@ -3,7 +3,9 @@ import img2 from '../assets/images/2.jpg';
 import img3 from '../assets/images/3.jpg';
 import img4 from '../assets/images/4.jpg';
 import vid1 from '../assets/videos/1.mp4';
-import vid2 from '../assets/videos/2.mp4';1
+import vid2 from '../assets/videos/2.mp4';
+
+import { useRef } from 'react';
 
 const galleryItems = [
     { type: 'image', src: img1, alt: 'Image 1' },
@@ -15,6 +17,16 @@ const galleryItems = [
 ]
 
 function Gallery() {
+  const videoRefs = useRef([])
+
+  const handlePlay = (currentIndex) => {
+    videoRefs.current.forEach((video, index) => {
+      if (video && index !== currentIndex) {
+        video.pause()
+      }
+    })
+  }
+
   return (
     <section className="gallery" id="gallery">
       <h2 className="section-title">Galería</h2>
@@ -24,7 +36,13 @@ function Gallery() {
             {item.type === 'image' ? (
               <img src={item.src} alt={item.alt} />
             ) : (
-              <video src={item.src} controls muted loop />
+              <video
+                ref={(el) => (videoRefs.current[index] = el)}
+                src={item.src}
+                controls
+                loop
+                onPlay={() => handlePlay(index)}
+              />
             )}
           </div>
         ))}
