@@ -219,8 +219,18 @@
 .experience-list {
   max-width: 700px;
   margin: 0 auto;
-  border-left: 2px solid var(--color-accent);
   padding-left: 2rem;
+  position: relative;
+}
+
+.experience-list::before {
+  content: '';
+  position: absolute;
+  top: 0.675rem;       /* arranca justo a la altura del centro del primer círculo */
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  background-color: var(--color-accent);
 }
 
 .experience-item {
@@ -231,12 +241,13 @@
 .experience-item::before {
   content: '';
   position: absolute;
-  left: -2.55rem;
+  left: -2.31rem;   /* antes -2.55rem */
   top: 0.3rem;
   width: 12px;
   height: 12px;
   border-radius: 50%;
   background-color: var(--color-accent);
+  z-index: 1;
 }
 
 .experience-period {
