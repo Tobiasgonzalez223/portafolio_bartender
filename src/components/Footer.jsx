@@ -3,7 +3,7 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <p>© {currentYear} Tu Nombre — Bartender Profesional</p>
+      <p>© {currentYear} Tobías González Parra — Bartender Profesional</p>
     </footer>
   )
 }

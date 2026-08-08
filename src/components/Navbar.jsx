@@ -11,7 +11,7 @@ function Navbar() {
       <div className="navbar-logo">Tobías González Parra</div>
 
       <button className="navbar-toggle" onClick={() => setMenuOpen(!menuOpen)}>
-        {menuOpen ? 'X' : '☰'}
+        {menuOpen ? 'Cerrar' : '☰'}
       </button>
 
       <ul className={`navbar-links ${menuOpen ? 'active' : ''}`}>
