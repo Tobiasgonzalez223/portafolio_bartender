@@ -298,7 +298,11 @@
 
 .contact-link {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+  row-gap: 0.3rem;
+  column-gap: 1rem;
   width: 100%;
   padding: 1rem 1.5rem;
   background-color: var(--color-accent);
