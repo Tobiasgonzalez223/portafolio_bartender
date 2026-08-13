@@ -31,3 +31,11 @@ body {
 h1, h2, h3 {
   font-family: var(--font-heading);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 70px; /* ajustá este valor según la altura real de tu navbar */
+}
