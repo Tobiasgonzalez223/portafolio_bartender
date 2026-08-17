@@ -8,10 +8,10 @@ import vid2 from '../assets/videos/2.mp4';
 import { useRef } from 'react';
 
 const galleryItems = [
-    { type: 'image', src: img1, alt: 'Image 1' },
-    { type: 'image', src: img2, alt: 'Image 2' },
-    { type: 'image', src: img3, alt: 'Image 3' },
-    { type: 'image', src: img4, alt: 'Image 4' },
+    { type: 'image', src: img1, alt: 'Image 1', position: 'center 10%' },
+    { type: 'image', src: img2, alt: 'Image 2', position: 'center' },
+    { type: 'image', src: img3, alt: 'Image 3', position: 'center 70%' },
+    { type: 'image', src: img4, alt: 'Image 4', position: 'center' },
     { type: 'video', src: vid1, alt: 'Video 1' },
     { type: 'video', src: vid2, alt: 'Video 2' }
 ]
@@ -34,8 +34,12 @@ function Gallery() {
         {galleryItems.map((item, index) => (
           <div className="gallery-item" key={index}>
             {item.type === 'image' ? (
-              <img src={item.src} alt={item.alt} />
-            ) : (
+            <img 
+              src={item.src} 
+              alt={item.alt} 
+              style={{ objectPosition: item.position || 'center' }}
+            />
+          ) : (
               <video
                 ref={(el) => (videoRefs.current[index] = el)}
                 src={item.src}
