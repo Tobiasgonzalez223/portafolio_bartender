@@ -44,7 +44,6 @@ function Gallery() {
                 ref={(el) => (videoRefs.current[index] = el)}
                 src={item.src}
                 controls
-                loop
                 onPlay={() => handlePlay(index)}
               />
             )}

@@ -11,7 +11,7 @@ function About() {
             Responsable, organizado y orientado a brindar un servicio de excelencia.
           </p>
           <p>
-            Soy estudiante avanzado de Ingeniería en Sistemas de Información, algo que me ayuda a 
+            Soy estudiante avanzado de Ingeniería en Sistemas de Información, lo que me ayuda a 
             pensar la barra con una mirada organizada, atenta al detalle y 
             en busqueda de optimizar el proceso.
           </p>
