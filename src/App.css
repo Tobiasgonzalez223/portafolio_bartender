@@ -339,6 +339,9 @@
 /* Responsive adjustments */
 @media (max-width: 480px) {
   /* ... lo del navbar que ya tenés ... */
+  .hero {
+    background-position: left; /* ajustá este valor a ojo */
+  }
 
   .hero-title {
     font-size: 2.2rem;
