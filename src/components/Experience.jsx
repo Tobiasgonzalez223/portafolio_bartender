@@ -4,21 +4,24 @@ const experienceList = [
     place: 'Unplugged, Córdoba | @unp.cerro',
     period: 'Mayo 2023 - Actualidad',
     description: 'Coordinación del funcionamiento de barra durante servicios de alta demanda. Control y reposición de stock. Apertura y cierre de barra.',
-    reference: 'Juan Manuel Ferreyra (Encargado depósito) +54 9 3543692588.'
+    referenceName: 'Juan Manuel Ferreyra (Encargado depósito)',
+    referencePhone: '+54 9 3543692588'
   },
   {
     role: 'Bartender y Encargado de Barra',
     place: 'Bar El Tori, Córdoba | @bar.eltori',
     period: 'Febrero - Septiembre 2025',
     description: 'Organización y control del funcionamiento de barra. Coordinación de stock general del bar.',
-    reference: 'Leandro Torres (Dueño) +54 9 351559 8887.'
+    referenceName: 'Leandro Torres (Dueño)',
+    referencePhone: '+54 9 351559 8887'
   },
   {
     role: 'Bartender de soporte',
     place: 'Ocaso Bar, Córdoba | @ocasobar_',
     period: '2025 - 2026',
     description: 'Contratado para eventos de alto volumen. Dominio de carta de coctelería clásica y de autor.',
-    reference: 'Nahuel Rubio (Dueño) +54 9 351 2435398'
+    referenceName: 'Nahuel Rubio (Dueño)',
+    referencePhone: '+54 9 351 2435398'
   },
 ]
 
@@ -34,7 +37,11 @@ function Experience() {
               <h3>{exp.role}</h3>
               <p className="experience-place">{exp.place}</p>
               <p className="experience-description">{exp.description}</p>
-              <p className="experience-reference">📞 Referencia: {exp.reference}</p>
+              <p className="experience-reference">
+                📞 Referencia: {exp.referenceName}
+                <br />
+                {exp.referencePhone}
+              </p>
             </div>
           </div>
         ))}
