@@ -145,32 +145,17 @@
 .skills-list {
   max-width: 600px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
 .skill-item {
-  margin-bottom: 1.2rem;
-}
-
-.skill-header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.4rem;
-  font-size: 0.95rem;
-}
-
-.skill-bar-bg {
-  width: 100%;
-  height: 8px;
-  background-color: rgba(255,255,255,0.1);
+  padding: 0.8rem 1.2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-left: 3px solid var(--color-accent);
   border-radius: 4px;
-  overflow: hidden;
-}
-
-.skill-bar-fill {
-  height: 100%;
-  background-color: var(--color-accent);
-  border-radius: 4px;
-  transition: width 1s ease;
+  font-size: 1rem;
 }
 
 /* Gallery */
@@ -226,29 +211,30 @@
 .experience-list::before {
   content: '';
   position: absolute;
-  top: 0.675rem;       /* arranca justo a la altura del centro del primer círculo */
+  top: 0.675rem;       
   bottom: 0;
   left: 0;
   width: 2px;
   background-color: var(--color-accent);
 }
 
+
 .experience-item {
   margin-bottom: 2.5rem;
   position: relative;
 }
-
+/*
 .experience-item::before {
   content: '';
   position: absolute;
-  left: -2.31rem;   /* antes -2.55rem */
+  left: -2.31rem;   
   top: 0.3rem;
   width: 12px;
   height: 12px;
   border-radius: 50%;
   background-color: var(--color-accent);
   z-index: 1;
-}
+}*/
 
 .experience-period {
   color: var(--color-accent);
@@ -340,7 +326,7 @@
 @media (max-width: 480px) {
   /* ... lo del navbar que ya tenés ... */
   .hero {
-    background-position: left; /* ajustá este valor a ojo */
+    background-position: left; 
   }
 
   .hero-title {

@@ -11,12 +11,12 @@ function About() {
             Responsable, organizado y orientado a brindar un servicio de excelencia.
           </p>
           <p>
-            Ademas, soy estudiante avanzado de Ingeniería en Sistemas de Información, algo que me ayuda a 
+            Soy estudiante avanzado de Ingeniería en Sistemas de Información, algo que me ayuda a 
             pensar la barra con una mirada organizada, atenta al detalle y 
             siempre buscando mejorar el proceso.
           </p>
           <p>
-            Disponibilidad para incorporarme durante la temporada Diciembre 2026 - Febrero 2027 en Punta del Este.
+            Disponibilidad para incorporarme durante la temporada 2026 - 2027 en Punta del Este, Uruguay.
           </p>
         </div>
       </div>
