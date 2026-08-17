@@ -13,7 +13,7 @@ function About() {
           <p>
             Soy estudiante avanzado de Ingeniería en Sistemas de Información, algo que me ayuda a 
             pensar la barra con una mirada organizada, atenta al detalle y 
-            siempre buscando mejorar el proceso.
+            en busqueda de optimizar el proceso.
           </p>
           <p>
             Disponibilidad para incorporarme durante la temporada 2026 - 2027 en Punta del Este, Uruguay.
